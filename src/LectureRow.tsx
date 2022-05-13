@@ -12,7 +12,7 @@ const LectureRow: FC<LectureRowProps> = ({lecture}) =>{
         <div className='flex flex-col ml-4 '>
         <div className='flex justify-start space-x-2 '>
 <h1 className='font-bold'>Lecture #{lecture.id}</h1>
-<h3 className=' text-gray-400 font-semibold'>{lecture.created_at}</h3>
+<h3 className=' text-gray-500 font-semibold'>{lecture.created_at}</h3>
 </div>
 <h3 className='text-sm text-gray-600 mt-2 '> Duration :({lecture.start_time})</h3>
 </div>
